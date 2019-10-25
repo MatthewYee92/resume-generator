@@ -2,9 +2,12 @@
   "name": "resume-generator",
   "version": "1.0.0",
   "description": "Site that creates resume for you from json, also allows editing from code editor built in. ",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "test:coverage": "react-scripts test --coverage --watchAll=false",
+    "eject": "react-scripts eject"
   },
   "repository": {
     "type": "git",
@@ -14,6 +17,41 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/MatthewYee92/resume-generator/issues"
+  },
+  "env": {
+    "browser": true,
+    "node": true,
+    "jest": true
+  },
+  "dependencies": {
+    "axios": "^0.18.1",
+    "classnames": "^2.2.6",
+    "date-fns": "^1.30.1",
+    "history": "^4.9.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-ace": "^7.0.1",
+    "react-dom": "^16.8.6",
+    "react-redux": "^7.0.3",
+    "react-router": "^5.0.0",
+    "react-scripts": "3.0.1",
+    "react-toastify": "^5.2.1",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^0.87.1",
+    "sortablejs": "^1.9.0",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^4.1.1",
+    "@testing-library/react": "^9.3.0",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.17.3",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.13.0",
+    "redux-logger": "^3.0.6"
   },
   "homepage": "https://github.com/MatthewYee92/resume-generator#readme"
 }
