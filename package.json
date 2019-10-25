@@ -53,5 +53,17 @@
     "eslint-plugin-react": "^7.13.0",
     "redux-logger": "^3.0.6"
   },
-  "homepage": "https://github.com/MatthewYee92/resume-generator#readme"
+  "homepage": "https://github.com/MatthewYee92/resume-generator#readme",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }
