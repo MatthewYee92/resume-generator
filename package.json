@@ -1,0 +1,19 @@
+{
+  "name": "resume-generator",
+  "version": "1.0.0",
+  "description": "Site that creates resume for you from json, also allows editing from code editor built in. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatthewYee92/resume-generator.git"
+  },
+  "author": "Matthew Yee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MatthewYee92/resume-generator/issues"
+  },
+  "homepage": "https://github.com/MatthewYee92/resume-generator#readme"
+}
